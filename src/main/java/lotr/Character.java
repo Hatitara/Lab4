@@ -33,6 +33,6 @@ public abstract class Character {
 
     @Override
     public String toString() {
-        return this.getClass().getSimpleName() + "{hp=" + hp + ", power=" + power + "}";
+        return "lotr." + this.getClass().getSimpleName() + "{hp=" + hp + ", power=" + power + "}";
     }
 }
