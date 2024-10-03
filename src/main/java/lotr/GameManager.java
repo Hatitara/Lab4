@@ -1,3 +1,5 @@
+package lotr;
+
 public class GameManager {
     public static void fight(Character c1, Character c2) {
         System.out.println("Fight starts between " + c1 + " and " + c2);

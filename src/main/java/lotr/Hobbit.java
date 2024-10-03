@@ -1,3 +1,5 @@
+package lotr;
+
 public class Hobbit extends Character {
     public Hobbit() {
         super(0, 3);
@@ -9,6 +11,6 @@ public class Hobbit extends Character {
     }
 
     private void toCry() {
-        System.out.println("Hobbit cries in despair!");
+        System.out.println("lotr.Hobbit cries in despair!");
     }
 }

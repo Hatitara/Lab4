@@ -1,3 +1,5 @@
+package lotr;
+
 public abstract class Noble extends Character {
     public Noble(int minPower, int maxPower, int minHp, int maxHp) {
         super(randomInRange(minPower, maxPower), randomInRange(minHp, maxHp));

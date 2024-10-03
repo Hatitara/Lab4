@@ -1,3 +1,5 @@
+import lotr.Character;
+import lotr.Hobbit;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -14,7 +16,7 @@ public class HobbitTest {
 
     @Test
     public void testToString() {
-        assertEquals("Hobbit{hp=3, power=0}", character.toString());
+        assertEquals("lotr.Hobbit{hp=3, power=0}", character.toString());
     }
 
     @Test
